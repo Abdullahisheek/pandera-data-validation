@@ -45,7 +45,7 @@ python main.py
 
 Den korrekta datan blir godkänd.
 
-Den felaktiga datan innehåller exempelvis negativ ålder, för hög ålder, saknad lön och negativ lön. Pandera identifierar dessa fel.
+Den felaktiga datan innehåller negativ ålder, för hög ålder, saknad lön och negativ lön. Pandera identifierar dessa fel.
 
 ## Begränsning
 
