@@ -2,32 +2,22 @@
 
 Detta projekt är en fördjupningsuppgift i Python för Data Science.
 
-Syftet är att undersöka hur Python-biblioteket Pandera kan användas för att validera data och upptäcka vanliga datakvalitetsproblem.
+Syftet är att lära mig grunderna i datavalidering med biblioteket Pandera.
 
-## Funktion
+## Vad programmet gör
 
-Programmet läser in CSV-filer med Pandas och använder Pandera för att kontrollera att datan följer ett antal regler.
+Programmet läser in CSV-filer med Pandas och kontrollerar datan med Pandera.
 
-Programmet kontrollerar bland annat:
+Det kontrollerar bland annat:
 
-- Att ålder ligger mellan 0 och 100.
-- Att lön inte är negativ.
-- Att obligatoriska värden inte saknas.
-- Att korrekt data kan godkännas.
-
-## Testdata
+- att ålder ligger mellan 0 och 100
+- att lön inte är negativ
+- att obligatoriska värden inte saknas
 
 Projektet innehåller två CSV-filer:
 
-- `valid_data.csv` innehåller korrekt data.
-- `invalid_data.csv` innehåller medvetet felaktig data för att testa valideringen.
-
-Den felaktiga datan innehåller exempelvis:
-
-- Negativ ålder.
-- Ålder över 100.
-- Saknad lön.
-- Negativ lön.
+- `valid_data.csv` med korrekt data
+- `invalid_data.csv` med medvetet felaktig data
 
 ## Tekniker
 
@@ -37,12 +27,8 @@ Den felaktiga datan innehåller exempelvis:
 
 ## Installation
 
-Installera projektets bibliotek med:
+Kör detta i terminalen:
 
 ```bash
 pip install -r requirements.txt
-
-## Kör programmet
-
-```bash
 python main.py
